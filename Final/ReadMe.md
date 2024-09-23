@@ -74,6 +74,13 @@ This block Takes the instruction and decodes it where
 ## Slaves (Data Memory)
 The Slaves used are different Data memories that reads and Writes the data according to the master's control signals, then Responds with HREADY and HRESP signals.
 
+| Slave                  | Address  |
+|-----------------------|--------------|
+| Data Memory 1   |     12'h000     |
+| Data Memory 2  | 12'h001        |       
+| Data Memory 3    | 12'h002    | 
+| Default Slave       | Other    |  
+
 ## Simulation Waveform
 **NOTE: To view the operation of each module alone check the folders in the Repository**
 
